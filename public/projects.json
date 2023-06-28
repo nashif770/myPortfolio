@@ -1,0 +1,42 @@
+[
+    {
+      "title": "Summer School",
+      "image": "https://i.ibb.co/y0TYhNj/Summer-Slamers.png",
+      "description": "A web application for managing summer school classes, bookings, and feedback.",
+      "githubLink": "https://github.com/nashif770/summerSchool",
+      "liveLink": "https://summer-slam-4b5d9.web.app/",
+      "technologies": ["Stripe", "React-Query", "Axios", "Framer-Motion", "Swiper", "Tailwind", "DaisyUI", "Firebase", "Hooks"],
+      "features": [
+        "Students can see booked classes and check payment history.",
+        "Instructors can create classes, check the students who booked the classes, and check feedback by Admin.",
+        "Admin can send feedback to classes submitted by instructors and approve or deny the classes."
+      ]
+    },
+    {
+      "title": "Online Toy Store",
+      "image": "https://i.ibb.co/sFntmPT/40k-Toystore.png",
+      "description": "An online store where clients can add toys to their inventory.",
+      "githubLink": "https://github.com/nashif770/ToyStore",
+      "liveLink": "https://k-action-figure-client.web.app/",
+      "technologies": ["React", "React-Router", "Firebase", "DaisyUi", "AOS", "React-Tabs"],
+      "features": [
+        "Clients can add toys to their inventory.",
+        "Admin can add new toys and delete toys.",
+        "Clients can view the details of the toys."
+      ]
+    },
+    {
+      "title": "Chef Finder",
+      "image": "https://i.ibb.co/bNcfQTx/Chef-Finder.png",
+      "description": "A website for finding and hiring chefs and discovering their recipes.",
+      "githubLink": "https://github.com/nashif770/chefRecipeHunter",
+      "liveLink": "https://chef-finder-d54c0.web.app/",
+      "technologies": ["React", "Firebase", "React-Bootstrap"],
+      "features": [
+        "Website consists of featured chefs with a hiring and contact section.",
+        "Chefs can upload new recipes.",
+        "Admin can add blogs in the Blog page, which can be viewed by visitors.",
+        "Clients can see chef's details and their recipes."
+      ]
+    }
+  ]

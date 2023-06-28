@@ -1,0 +1,44 @@
+[
+    {
+      "name": "Web Development",
+      "description": "Full-stack web development using the MERN stack",
+      "icon": "https://i.ibb.co/QMcrMqj/app-development.png",
+      "keywords": ["MERN stack", "MongoDB", "Express.js", "React.js", "Node.js"]
+    },
+    {
+      "name": "Front-End Development",
+      "description": "Building user-friendly UIs with React.js",
+      "icon": "https://i.ibb.co/Tt5k3zR/frontend.png",
+      "keywords": ["React.js", "UI development", "Redux", "Responsive design"]
+    },
+    {
+      "name": "Back-End Development",
+      "description": "Building robust back-end systems with Node.js and Express.js",
+      "icon": "https://i.ibb.co/nQZw9k7/backend.png",
+      "keywords": ["Node.js", "Express.js", "RESTful APIs", "Authentication", "Performance optimization"]
+    },
+    {
+      "name": "Database Design and Management",
+      "description": "Designing efficient MongoDB data structures and managing databases",
+      "icon": "https://i.ibb.co/vD7SWnP/database.png",
+      "keywords": ["MongoDB", "Database design", "Data modeling", "Query optimization"]
+    },
+    {
+      "name": "API Development and Integration",
+      "description": "Developing and integrating APIs into existing systems",
+      "icon": "https://i.ibb.co/xL81BXN/API-integration.png",
+      "keywords": ["API development", "Third-party APIs", "Integration", "Custom APIs"]
+    },
+    {
+      "name": "Website Maintenance and Support",
+      "description": "Providing ongoing support and maintenance for MERN stack websites",
+      "icon": "https://i.ibb.co/CVMVSBq/maintenance.png",
+      "keywords": ["Bug fixing", "Performance optimization", "Feature enhancements", "Security updates"]
+    }
+  ]
+
+  
+
+
+
+
