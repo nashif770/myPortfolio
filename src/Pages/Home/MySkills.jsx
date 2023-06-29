@@ -10,36 +10,38 @@ import Marquee from "react-fast-marquee";
 
 const MySkills = () => {
   return (
-    <div className="">
+    <div data-aos="fade-up" className="h-96">
       <Header heading="My Skill"></Header>{" "}
-      <Marquee>
-        <div className="grid grid-cols-6 m-auto gap-14">
-          <div className="border m-auto shadow-lg w-40 p-3 rounded-lg">
-            <img className="h-20 m-auto mb-3" src={html} alt="" />
-            <h3 className="text-center">HTML</h3>
+      <div className="mt-20">
+        <Marquee>
+          <div className="grid grid-cols-6 gap-14 m-auto">
+            <div className="border m-auto shadow-lg w-40 p-3 rounded-lg">
+              <img className="h-20 m-auto mb-3" src={html} alt="" />
+              <h3 className="text-center">HTML</h3>
+            </div>
+            <div className="border m-auto shadow-lg w-40 p-3 rounded-lg">
+              <img className="h-20 m-auto mb-3" src={css} alt="" />
+              <h3 className="text-center">CSS</h3>
+            </div>
+            <div className="border m-auto shadow-lg w-40 p-3 rounded-lg">
+              <img className="h-20 m-auto mb-3" src={bootstrap} alt="" />
+              <h3 className="text-center">CSS Framework</h3>
+            </div>
+            <div className="border m-auto shadow-lg w-40 p-3 rounded-lg">
+              <img className="h-20 m-auto mb-3" src={javascript} alt="" />
+              <h3 className="text-center">JavaScript</h3>
+            </div>
+            <div className="border m-auto shadow-lg w-40 p-3 rounded-lg">
+              <img className="h-20 m-auto mb-3" src={bug} alt="" />
+              <h3 className="text-center">Bug Finding</h3>
+            </div>
+            <div className="border m-auto shadow-lg w-40 p-3 rounded-lg">
+              <img className="h-20 m-auto mb-3" src={react} alt="" />
+              <h3 className="text-center">React</h3>
+            </div>
           </div>
-          <div className="border m-auto shadow-lg w-40 p-3 rounded-lg">
-            <img className="h-20 m-auto mb-3" src={css} alt="" />
-            <h3 className="text-center">CSS</h3>
-          </div>
-          <div className="border m-auto shadow-lg w-40 p-3 rounded-lg">
-            <img className="h-20 m-auto mb-3" src={bootstrap} alt="" />
-            <h3 className="text-center">CSS Framework</h3>
-          </div>
-          <div className="border m-auto shadow-lg w-40 p-3 rounded-lg">
-            <img className="h-20 m-auto mb-3" src={javascript} alt="" />
-            <h3 className="text-center">JavaScript</h3>
-          </div>
-          <div className="border m-auto shadow-lg w-40 p-3 rounded-lg">
-            <img className="h-20 m-auto mb-3" src={bug} alt="" />
-            <h3 className="text-center">Bug Finding</h3>
-          </div>
-          <div className="border m-auto shadow-lg w-40 p-3 rounded-lg">
-            <img className="h-20 m-auto mb-3" src={react} alt="" />
-            <h3 className="text-center">React</h3>
-          </div>
-        </div>
-      </Marquee>
+        </Marquee>
+      </div>
     </div>
   );
 };

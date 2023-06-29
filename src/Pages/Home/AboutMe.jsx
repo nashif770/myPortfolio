@@ -6,10 +6,10 @@ import "animate.css";
 
 const AboutMe = () => {
   return (
-    <div className="">
+    <div className="h-5/6" data-aos="fade-up">
       <Header heading="About Me"></Header>
-      <div className="flex align-middle">
-        <div className="flex flex-col m-3 w-1/2">
+      <div className="flex flex-col md:flex-row align-middle">
+        <div className="flex flex-col m-3 md:w-1/2">
           <p className="text-6xl border rounded-lg shadow-lg p-6 mt-3 mb-3 animate__animated animate__slideInLeft animate__delay-2s">
             Ahmed Nashif
           </p>
@@ -21,7 +21,7 @@ const AboutMe = () => {
             web experiences.
           </p>
         </div>
-        <div className="m-3 p-3 border shadow-lg rounded-lg w-1/2 animate__animated animate__slideInRight animate__delay-5s">
+        <div className="m-3 p-3 border shadow-lg rounded-lg md:w-1/2 animate__animated animate__slideInRight animate__delay-5s">
           <p>
             I am a Highly motivated web developer with a passion for creating
             visually appealing and user friendly websites. I am a continuous
@@ -35,9 +35,18 @@ const AboutMe = () => {
             <h3 className="text-2xl font-bold mb-6">Follow Me</h3>
             <div className="">
               {/* TODO:  */}
-              <FaFacebook className="btn btn-circle me-4"></FaFacebook>
-              <FaTwitter className="btn btn-circle me-4"></FaTwitter>
-              <FaLinkedin className="btn btn-circle me-4"></FaLinkedin>
+              <a href="https://web.facebook.com/nashif910" target="blank">
+                <FaFacebook className="btn btn-circle me-4"></FaFacebook>
+              </a>
+              <a href="https://twitter.com/AN361770" target="blank">
+                <FaTwitter className="btn btn-circle me-4"></FaTwitter>
+              </a>
+              <a
+                href="https://www.linkedin.com/in/ahmed-nashif-9840941a0/"
+                target="blank"
+              >
+                <FaLinkedin className="btn btn-circle me-4"></FaLinkedin>
+              </a>
             </div>
           </div>
         </div>

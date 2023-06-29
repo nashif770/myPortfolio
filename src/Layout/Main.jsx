@@ -5,7 +5,7 @@ import Navbar from '../Components/Navbar';
 
 const Main = () => {
     return (
-        <div>
+        <div className='bg-slate-200'>
             <Navbar></Navbar>
             <Outlet></Outlet>
             <Footer></Footer>

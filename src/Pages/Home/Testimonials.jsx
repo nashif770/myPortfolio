@@ -1,11 +1,7 @@
-import React from 'react';
+import React from "react";
 
 const Testimonials = () => {
-    return (
-        <div>
-            
-        </div>
-    );
+  return <div data-aos="fade-up"></div>;
 };
 
 export default Testimonials;

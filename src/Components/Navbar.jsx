@@ -1,22 +1,27 @@
 import React from "react";
 import DownloadButton from "./DownloadButton";
+import { NavLink, Link } from "react-router-dom";
 
 const Navbar = () => {
-  const navSection = 
+  const navSection = (
     <>
       <li>
-        <a>Home</a>
+        <Link to={"/"}>Home</Link>
+      </li>
+      {/* <li>
+        <Link>About</Link>
       </li>
       <li>
-        <a>My Projects</a>
+        <Link>Contacts</Link>
       </li>
       <li>
-        <a>Contact Me</a>
-      </li>
+        <Link>Blogs</Link>
+      </li> */}
     </>
-  
+  );
+
   return (
-    <div className="navbar bg-base-100">
+    <div className="navbar bg-base-300 sticky top-0 border shadow-xl z-20 ">
       <div className="navbar-start">
         <div className="dropdown">
           <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -48,7 +53,9 @@ const Navbar = () => {
         <ul className="menu menu-horizontal px-1">{navSection}</ul>
       </div>
       <div className="navbar-end">
-      <DownloadButton buttonName={"Download Resume"}></DownloadButton>
+        <div className="">
+          <DownloadButton buttonName={"Download Resume"}></DownloadButton>
+        </div>
       </div>
     </div>
   );
