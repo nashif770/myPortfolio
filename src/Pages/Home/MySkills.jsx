@@ -14,28 +14,28 @@ const MySkills = () => {
       <Header heading="My Skill"></Header>{" "}
       <div className="mt-20">
         <Marquee>
-          <div className="grid grid-cols-6 gap-14 m-auto">
-            <div className="border m-auto shadow-lg w-40 p-3 rounded-lg">
+          <div className="grid grid-cols-6 gap-14 m-auto p-6">
+            <div className="border m-auto shadow-lg w-40 p-3 rounded-lg hover:bg-slate-100">
               <img className="h-20 m-auto mb-3" src={html} alt="" />
               <h3 className="text-center">HTML</h3>
             </div>
-            <div className="border m-auto shadow-lg w-40 p-3 rounded-lg">
+            <div className="border m-auto shadow-lg w-40 p-3 rounded-lg hover:bg-slate-100">
               <img className="h-20 m-auto mb-3" src={css} alt="" />
               <h3 className="text-center">CSS</h3>
             </div>
-            <div className="border m-auto shadow-lg w-40 p-3 rounded-lg">
+            <div className="border m-auto shadow-lg w-40 p-3 rounded-lg hover:bg-slate-100">
               <img className="h-20 m-auto mb-3" src={bootstrap} alt="" />
               <h3 className="text-center">CSS Framework</h3>
             </div>
-            <div className="border m-auto shadow-lg w-40 p-3 rounded-lg">
+            <div className="border m-auto shadow-lg w-40 p-3 rounded-lg hover:bg-slate-100">
               <img className="h-20 m-auto mb-3" src={javascript} alt="" />
               <h3 className="text-center">JavaScript</h3>
             </div>
-            <div className="border m-auto shadow-lg w-40 p-3 rounded-lg">
+            <div className="border m-auto shadow-lg w-40 p-3 rounded-lg hover:bg-slate-100">
               <img className="h-20 m-auto mb-3" src={bug} alt="" />
               <h3 className="text-center">Bug Finding</h3>
             </div>
-            <div className="border m-auto shadow-lg w-40 p-3 rounded-lg">
+            <div className="border m-auto shadow-lg w-40 p-3 rounded-lg hover:bg-slate-100">
               <img className="h-20 m-auto mb-3" src={react} alt="" />
               <h3 className="text-center">React</h3>
             </div>

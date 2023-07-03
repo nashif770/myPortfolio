@@ -21,7 +21,7 @@ const Services = () => {
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6 p-6">
         {services.map((service) => (
           <div
-            className="m-auto p-2 border shadow-lg rounded-lg w-full flex justify-center hover:shadow-none animate__animated animate__pulse infinite"
+            className="m-auto p-2 border shadow-lg rounded-lg w-full flex justify-center hover:bg-slate-100"
             key={service.name}           
           >
             <img className="h-20 me-3" src={service.icon} alt="" />
