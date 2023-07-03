@@ -21,7 +21,7 @@ const Banner = () => {
             }}
           />
         </h1>
-        <p className="text-3xl md:text-6xl font-bold uppercase m-3 animate__animated mb-6 animate__slideInRight">
+        <h3 className="text-3xl md:text-6xl font-bold uppercase m-3 animate__animated mb-6 animate__slideInRight">
         <Typewriter
             onInit={(typewriter) => {
               typewriter
@@ -33,7 +33,7 @@ const Banner = () => {
                 .start();
             }}
           />
-        </p>
+        </h3>
       </div>
       <DownloadButton buttonName={"Download My Resume"}></DownloadButton>
     </div>

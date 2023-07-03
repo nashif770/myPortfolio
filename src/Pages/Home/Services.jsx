@@ -11,7 +11,6 @@ const Services = () => {
       .then((data) => setServices(data));
   }, []);
 
-  console.log(services);
 
   let index = 1;
 

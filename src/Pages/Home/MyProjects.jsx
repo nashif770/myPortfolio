@@ -10,7 +10,6 @@ const MyProjects = () => {
       .then((data) => setProjects(data));
   }, []);
 
-  console.log(projects)
 
   return (
     <div id="projects" className="mb-6" data-aos='fade-up'>
