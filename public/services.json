@@ -12,8 +12,8 @@
       "keywords": ["React.js", "UI development", "Redux", "Responsive design"]
     },
     {
-      "name": "Back-End Development",
-      "description": "Building robust back-end systems with Node.js and Express.js",
+      "name": "UI/UX Development",
+      "description": "Creating beautiful websites",
       "icon": "https://i.ibb.co/nQZw9k7/backend.png",
       "keywords": ["Node.js", "Express.js", "RESTful APIs", "Authentication", "Performance optimization"]
     },

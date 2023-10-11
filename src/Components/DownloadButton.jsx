@@ -8,7 +8,7 @@ const DownloadButton = ({buttonName}) => {
     link.click();
   };
   return (
-    <button onClick={handleDownload} className="btn font-bold btn-lg m-0 shadow-lg">
+    <button onClick={handleDownload} className="btn font-bold btn-lg m-0 shadow-lg bg-white border-none hover:bg-green-500 hover:text-white">
       {buttonName}
     </button>
   );

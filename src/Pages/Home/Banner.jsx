@@ -5,27 +5,16 @@ import Typewriter from "typewriter-effect";
 
 const Banner = () => {
   return (
-    <div className="text-center h-5/6 mt-24 p-6" data-aos="fade-up">
-      <div></div>
-      <div className="border rounded-lg shadow-lg p-6 mb-6">
+    <div className="text-center text-black h-5/6 p-6" data-aos="fade-up">
+      <div className="rounded-lg bg-white p-6 mb-6 mt-24">
         <h1 className="text-4xl md:text-8xl font-bold uppercase m-3 animate__animated animate__slideInLeft">
-          <Typewriter
-            onInit={(typewriter) => {
-              typewriter
-                .typeString("Hello! ")
-                .callFunction(() => {
-                  console.log("String typed out!");
-                  typewriter.stop
-                })
-                .start();
-            }}
-          />
+          Hello
         </h1>
-        <h3 className="text-3xl md:text-6xl font-bold uppercase m-3 animate__animated mb-6 animate__slideInRight">
+        <h3 className="text-2xl md:text-6xl font-bold m-3 animate__animated mb-6 animate__slideInRight">
         <Typewriter
             onInit={(typewriter) => {
               typewriter
-                .typeString("i am a web developer ")
+                .typeString("I am A Frontend Web developer")
                 .callFunction(() => {
                   console.log("String typed out!");
                   typewriter.stop

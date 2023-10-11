@@ -20,7 +20,7 @@ const Home = () => {
     });
   }, []);
   return (
-    <div className="">
+    <div className="bg-gradient-to-t from-teal-100 to-white">
       <Banner data-aos='fade-up'></Banner>
       <AboutMe data-aos='fade-up'></AboutMe>
       <MyProjects data-aos='fade-up'></MyProjects>

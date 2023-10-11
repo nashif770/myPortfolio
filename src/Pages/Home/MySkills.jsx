@@ -14,7 +14,7 @@ const MySkills = () => {
       <Header heading="My Skill"></Header>{" "}
       <div className="mt-20">
         <Marquee>
-          <div className="grid grid-cols-6 gap-14 m-auto p-6">
+          <div className="grid grid-cols-6 gap-16 m-auto p-6">
             <div className="border m-auto shadow-lg w-40 p-3 rounded-lg hover:bg-slate-100">
               <img className="h-20 m-auto mb-3" src={html} alt="" />
               <h3 className="text-center">HTML</h3>

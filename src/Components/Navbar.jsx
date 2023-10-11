@@ -24,7 +24,7 @@ const Navbar = () => {
   );
 
   return (
-    <div className="navbar bg-base-300 sticky top-0 border shadow-xl z-20 ">
+    <div className="navbar sticky top-0 border shadow-sm bg-gradient-to-r from-teal-300 to-green-300 z-20 ">
       <div className="navbar-start">
         <div className="dropdown">
           <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -50,12 +50,12 @@ const Navbar = () => {
             {navSection}
           </ul>
         </div>
-        <p className="text-2xl font-bold">Ahmed Nashif</p>
+        <p className="text-2xl font-bold p-3">Ahmed Nashif</p>
       </div>
       <div className="navbar-center hidden lg:flex">
-        <ul className="menu menu-horizontal px-1">{navSection}</ul>
+        <ul className="menu menu-horizontal px-1 text-xl font-bold">{navSection}</ul>
       </div>
-      <div className="navbar-end">
+      <div className="navbar-end p-3">
         <div className="">
           <DownloadButton buttonName={"Download Resume"}></DownloadButton>
         </div>

@@ -18,8 +18,8 @@ const ContactMe = () => {
   };
 
   return (
-    <div className="hero bg-slate-200">
-      <div className="hero-content flex-col lg:flex-row-reverse">
+    <div>
+      <div className="hero-content m-auto flex-col lg:flex-row-reverse">
         <div className="card w-full max-w-sm shadow-2xl bg-base-100">
           <form onSubmit={sendEmail} ref={form} className="card-body flex flex-row">
             <div className="form-control">

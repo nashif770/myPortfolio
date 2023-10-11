@@ -2,7 +2,7 @@
     {
       "id": "01",
       "title": "Summer School",
-      "image": "https://i.ibb.co/y0TYhNj/Summer-Slamers.png",
+      "image": "https://i.ibb.co/rvTw49T/site1.png",
       "image2": "https://i.ibb.co/Lt1qBwW/pic3.png",
       "image3": "https://i.ibb.co/TTMGRkP/pic4.png",
       "image4": "https://i.ibb.co/hdJ81z5/pic1.png",
@@ -18,8 +18,8 @@
     },
     {
       "id": "02",
-      "title": "Online Toy Store",
-      "image": "https://i.ibb.co/sFntmPT/40k-Toystore.png",
+      "title": "40k Toy Store",
+      "image": "https://i.ibb.co/9bSfnGb/site2.png",
       "image2": "https://i.ibb.co/cxJ9xwy/40k1.png",
       "image3": "https://i.ibb.co/7WXfpJ8/40k2.png",
       "image4": "https://i.ibb.co/z6pm3YK/40k3.png",
@@ -36,13 +36,13 @@
     {
       "id": "03",
       "title": "Chef Finder",
-      "image": "https://i.ibb.co/bNcfQTx/Chef-Finder.png",
+      "image": "https://i.ibb.co/R0PRfyX/site3.png",
       "image2": "https://i.ibb.co/q152Wnd/chef01.png",
       "image3": "https://i.ibb.co/mb9MGT3/chef02.png",
       "image4": "https://i.ibb.co/6NrL1Yt/chef03.png",
       "description": "A website for finding and hiring chefs and discovering their recipes.",
       "githubLink": "https://github.com/nashif770/chefRecipeHunter",
-      "liveLink": "https://chef-finder-d54c0.web.app/",
+      "liveLink": "https://incredible-cascaron-8dd80f.netlify.app/",
       "technologies": ["React", "Firebase", "React-Bootstrap"],
       "features": [
         "Website consists of featured chefs with a hiring and contact section.",
@@ -52,3 +52,6 @@
       ]
     }
   ]
+
+  
+
