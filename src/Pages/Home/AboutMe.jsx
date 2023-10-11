@@ -4,41 +4,38 @@ import { FaBeer, FaFacebook, FaTwitter, FaLinkedin } from "react-icons/fa";
 import Header from "../../Components/Header";
 import "animate.css";
 import profileImage from "../../../public/Nashifimage.png";
+import DownloadButton from "../../Components/DownloadButton";
 
 const AboutMe = () => {
   return (
-    <div className="h-4/6 text-black" data-aos="fade-up">
+    <div className="h-screen text-black ">
       <Header heading="About Me"></Header>
-      <div className="flex flex-col md:flex-row align-middle">
-        <div className="flex flex-col m-3 md:w-1/2">
-          <div className="text-center p-10">
-            <h2 className="text-5xl py-2 text-teal-600 font-medium md:text-6xl">
-              Ahmed Nashif
-            </h2>
-            <h3 className="text-2xl py-2 md:text-3xl">
-              Frontend Web Developers
-            </h3>
-            <p className="text-medium py-5 leading-8 text-gray-800 md:text-xl mx-w-lg mx-auto">
-              A web developer providing services for web development needs.
-            </p>
-            <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 cursor-pointer">
-              <a href="https://web.facebook.com/nashif910" target="blank">
-                <FaFacebook className="btn btn-circle mx-12"></FaFacebook>
-              </a>
-              <a href="https://twitter.com/AN361770" target="blank">
-                <FaTwitter className="btn btn-circle mx-12"></FaTwitter>
-              </a>
-              <a
-                href="https://www.linkedin.com/in/ahmed-nashif-9840941a0/"
-                target="blank"
-              >
-                <FaLinkedin className="btn btn-circle mx-12"></FaLinkedin>
-              </a>
-            </div>
+      <div className="flex justify-center items-center h-screen flex-col md:flex-row-reverse" data-aos="fade-up">
+        <div className="w-full rounded-lg p-6 md:w-1/2 text-center md:text-left m-3">
+          <h3 className="text-2xl py-2 md:text-3xl">My Introduction</h3>
+          <p className="text-start text-medium my-5 leading-8 text-gray-800 md:text-xl mx-w-lg mx-auto md:me-36">
+            A Frontend web developer. I create webpages using html, css, js and react. I am ready to work with you.
+          </p>
+          <DownloadButton buttonName={"Download My Resume"}></DownloadButton>
+          <div className="text-5xl gap-6 mt-6 py-3 text-gray-600 cursor-pointer">
+            <a href="https://web.facebook.com/nashif910" target="blank">
+              <FaFacebook className="btn btn-circle me-10"></FaFacebook>
+            </a>
+            <a href="https://twitter.com/AN361770" target="blank">
+              <FaTwitter className="btn btn-circle me-10"></FaTwitter>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/ahmed-nashif-9840941a0/"
+              target="blank"
+            >
+              <FaLinkedin className="btn btn-circle me-10"></FaLinkedin>
+            </a>
           </div>
         </div>
-        <div className="relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mt-6 overflow-hidden md:h-96 md:w-96">
-          <img src={profileImage} />
+        <div className="w-full md:w-1/2 m-3">
+          <div className="relative m-auto bg-gradient-to-b from-teal-500 rounded-full h-80 w-80 mt-6 md:h-[400px] md:w-[400px] lg:h-[600px] lg:w-[600px] overflow-hidden">
+            <img src={profileImage} className="m-auto h-full" />
+          </div>
         </div>
       </div>
     </div>

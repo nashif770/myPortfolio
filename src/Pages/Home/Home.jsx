@@ -21,15 +21,15 @@ const Home = () => {
   }, []);
   return (
     <div className="bg-gradient-to-t from-teal-100 to-white">
-      <Banner data-aos='fade-up'></Banner>
-      <AboutMe data-aos='fade-up'></AboutMe>
-      <MyProjects data-aos='fade-up'></MyProjects>
-      <MySkills data-aos='fade-up'></MySkills>
-      <Services data-aos='fade-up'></Services>
+      <Banner ></Banner>
+      <AboutMe ></AboutMe>
+      <MyProjects ></MyProjects>
+      <MySkills ></MySkills>
+      <Services ></Services>
       {/* <Testimonials></Testimonials> */}
-      {/* <Resume data-aos='fade-up'></Resume> */}
-      <Blog data-aos='fade-up'></Blog>
-      <Contact data-aos='fade-up'></Contact>
+      {/* <Resume ></Resume> */}
+      <Blog ></Blog>
+      <Contact ></Contact>
     </div>
   );
 };

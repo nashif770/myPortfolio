@@ -15,9 +15,9 @@ const Services = () => {
   let index = 1;
 
   return (
-    <div data-aos='fade-up'>
+    <div>
       <Header heading={"My Services"}></Header>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 p-6">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 p-6 overflow-hidden" data-aos="fade-up">
         {services.map((service) => (
           <div
             className="m-auto py-6 px-6 border shadow-lg rounded-lg w-full flex justify-between hover:bg-slate-100"

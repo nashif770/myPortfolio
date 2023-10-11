@@ -5,7 +5,7 @@ import ContactMe from "../../Components/ContactMe";
 const Contact = () => {
 
   return (
-    <div className="flex flex-col pb-6">
+    <div className="flex flex-col my-auto">
       <Header heading={"Ready to Work with Me?"}></Header>
       <div
         className="flex flex-col align-middle text-center m-3 mt-3 "
