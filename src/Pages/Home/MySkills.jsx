@@ -3,6 +3,7 @@ import Header from "../../Components/Header";
 import html from "../../assets/icons/Skills/html.png";
 import css from "../../assets/icons/Skills/CSS.png";
 import bootstrap from "../../assets/icons/Skills/bootstrap.png";
+import tailwind from "../../assets/icons/Skills/tailwind.png";
 import javascript from "../../assets/icons/Skills/java-script.png";
 import bug from "../../assets/icons/Skills/bug.png";
 import react from "../../assets/icons/Skills/react.png";
@@ -14,28 +15,32 @@ const MySkills = () => {
       <Header heading="My Skill"></Header>{" "}
       <div className="mt-20">
         <Marquee>
-          <div className="grid grid-cols-6 gap-16 m-auto p-6">
-            <div className="border m-auto shadow-lg w-40 p-3 rounded-lg hover:bg-slate-100">
+          <div className="grid grid-cols-7 gap-6 xl:gap-32 m-auto p-6">
+            <div className="border m-auto shadow-lg w-40 xl:w-96 p-3 rounded-lg hover:bg-white bg-gradient-r from-teal-200">
               <img className="h-20 m-auto mb-3" src={html} alt="" />
               <h3 className="text-center">HTML</h3>
             </div>
-            <div className="border m-auto shadow-lg w-40 p-3 rounded-lg hover:bg-slate-100">
+            <div className="border m-auto shadow-lg w-40 xl:w-96 p-3 rounded-lg hover:bg-white bg-gradient-r from-teal-200">
               <img className="h-20 m-auto mb-3" src={css} alt="" />
               <h3 className="text-center">CSS</h3>
             </div>
-            <div className="border m-auto shadow-lg w-40 p-3 rounded-lg hover:bg-slate-100">
+            <div className="border m-auto shadow-lg w-40 xl:w-96 p-3 rounded-lg hover:bg-white bg-gradient-r from-teal-200">
               <img className="h-20 m-auto mb-3" src={bootstrap} alt="" />
-              <h3 className="text-center">CSS Framework</h3>
+              <h3 className="text-center">BootStrap</h3>
             </div>
-            <div className="border m-auto shadow-lg w-40 p-3 rounded-lg hover:bg-slate-100">
+            <div className="border m-auto shadow-lg w-40 xl:w-96 p-3 rounded-lg hover:bg-white bg-gradient-r from-teal-200">
+              <img className="h-20 m-auto mb-3" src={tailwind} alt="" />
+              <h3 className="text-center">Tailwind</h3>
+            </div>
+            <div className="border m-auto shadow-lg w-40 xl:w-96 p-3 rounded-lg hover:bg-white bg-gradient-r from-teal-200">
               <img className="h-20 m-auto mb-3" src={javascript} alt="" />
               <h3 className="text-center">JavaScript</h3>
             </div>
-            <div className="border m-auto shadow-lg w-40 p-3 rounded-lg hover:bg-slate-100">
+            <div className="border m-auto shadow-lg w-40 xl:w-96 p-3 rounded-lg hover:bg-white bg-gradient-r from-teal-200">
               <img className="h-20 m-auto mb-3" src={bug} alt="" />
               <h3 className="text-center">Bug Finding</h3>
             </div>
-            <div className="border m-auto shadow-lg w-40 p-3 rounded-lg hover:bg-slate-100">
+            <div className="border m-auto shadow-lg w-40 xl:w-96 p-3 rounded-lg hover:bg-white bg-gradient-r from-teal-200">
               <img className="h-20 m-auto mb-3" src={react} alt="" />
               <h3 className="text-center">React</h3>
             </div>

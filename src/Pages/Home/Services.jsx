@@ -17,14 +17,14 @@ const Services = () => {
   return (
     <div data-aos='fade-up'>
       <Header heading={"My Services"}></Header>
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-6 p-6">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 p-6">
         {services.map((service) => (
           <div
-            className="m-auto p-2 border shadow-lg rounded-lg w-full flex justify-center hover:bg-slate-100"
+            className="m-auto py-6 px-6 border shadow-lg rounded-lg w-full flex justify-between hover:bg-slate-100"
             key={service.name}           
           >
             <img className="h-20 me-3" src={service.icon} alt="" />
-            <div>
+            <div className="w-4/5">
               <h3 className="font-bold h-12">{service.name}</h3>
               <h3 className="h-16">{service.description}</h3>
             </div>

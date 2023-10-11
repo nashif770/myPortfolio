@@ -5,10 +5,10 @@ import ContactMe from "../../Components/ContactMe";
 const Contact = () => {
 
   return (
-    <div className="flex flex-col pb-12">
+    <div className="flex flex-col pb-6">
       <Header heading={"Ready to Work with Me?"}></Header>
       <div
-        className="flex flex-col align-middle text-center border shadow-lg rounded-lg m-3 mt-20"
+        className="flex flex-col align-middle text-center m-3 mt-3 "
         data-aos="fade-up"
       >
         <div className="text-center p-10">
