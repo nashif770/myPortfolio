@@ -8,13 +8,16 @@ import DownloadButton from "../../Components/DownloadButton";
 
 const AboutMe = () => {
   return (
-    <div className="h-screen text-black ">
-      <Header heading="About Me"></Header>
-      <div className="flex justify-center items-center h-screen flex-col md:flex-row-reverse" data-aos="fade-up">
-        <div className="w-full rounded-lg p-6 md:w-1/2 text-center md:text-left m-3">
+    <div className="md:h-screen text-black">
+      <div
+        className="flex justify-center items-center h-full flex-col md:flex-row-reverse"
+        data-aos="fade-up"
+      >
+        <div className="w-full p-6 md:w-1/2 text-center md:text-left">
           <h3 className="text-2xl py-2 md:text-3xl">My Introduction</h3>
           <p className="text-start text-medium my-5 leading-8 text-gray-800 md:text-xl mx-w-lg mx-auto md:me-36">
-            A Frontend web developer. I create webpages using html, css, js and react. I am ready to work with you.
+            A Frontend web developer. I create webpages using html, css, js and
+            react. I am ready to work with you.
           </p>
           <DownloadButton buttonName={"Download My Resume"}></DownloadButton>
           <div className="text-5xl gap-6 mt-6 py-3 text-gray-600 cursor-pointer">
@@ -32,10 +35,10 @@ const AboutMe = () => {
             </a>
           </div>
         </div>
-        <div className="w-full md:w-1/2 m-3">
-          <div className="relative m-auto bg-gradient-to-b from-teal-500 rounded-full h-80 w-80 mt-6 md:h-[400px] md:w-[400px] lg:h-[600px] lg:w-[600px] overflow-hidden">
-            <img src={profileImage} className="m-auto h-full" />
-          </div>
+        <div className="w-full md:w-1/2">
+        <div className="relative m-auto bg-gradient-to-b from-teal-500 rounded-full h-80 w-80 mt-6 md:h-[400px] md:w-[400px] xl:h-[450px] xl:w-[450px] overflow-hidden">
+          <img src={profileImage} className="m-auto h-full" />
+        </div>
         </div>
       </div>
     </div>

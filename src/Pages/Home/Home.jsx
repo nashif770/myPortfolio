@@ -10,6 +10,7 @@ import Blog from "./Blog";
 import Contact from "./Contact";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import Header from "../../Components/Header";
 
 const Home = () => {
   useEffect(() => {
@@ -22,8 +23,11 @@ const Home = () => {
   return (
     <div className="bg-gradient-to-t from-teal-100 to-white">
       <Banner ></Banner>
+      <Header heading="About Me"></Header>
       <AboutMe ></AboutMe>
+      <Header heading="My Projects"></Header>
       <MyProjects ></MyProjects>
+      <Header heading="My Skill"></Header>
       <MySkills ></MySkills>
       <Services ></Services>
       {/* <Testimonials></Testimonials> */}

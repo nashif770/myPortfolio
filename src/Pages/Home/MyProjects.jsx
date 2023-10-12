@@ -15,7 +15,6 @@ const MyProjects = () => {
 
   return (
     <div id="projects" className="mb-6">
-      <Header heading="My Projects"></Header>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-3 p-6" data-aos="fade-up">
         {projects.map((myProject) => (
           <div className="p-6 border shadow-lg rounded-lg hover:bg-slate-100" key={myProject.id}>
